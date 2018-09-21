@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab03</string>
+    <string name="button_main">Send</string>
+    <string name="activity2_name">Second Activity</string>
+    <string name="textView">Roger that!</string>
+    <string name="hint">Enter your message here</string>
+    <string name="button_second">Reply</string>
+    <string name="editText_second">Text to reply with</string>
+    <string name="text_header_reply">Reply</string>
+</resources>
