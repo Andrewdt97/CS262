@@ -1,1 +1,1 @@
-Authored by Caroline Carlson, Andrew Thomas, and Gavin Martin.
+Authored by Caroline Carlson and Andrew Thomas.
