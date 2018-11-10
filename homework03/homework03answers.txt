@@ -1,0 +1,24 @@
+Andrew Thomas
+CS 336 Homework03
+
+Is the service RESTful? If not, why not? If so, what key features make it RESTful.
+	Yes, it is RESTful, meeting all criteria. It uses HTTP requests, remains stateless,
+		is accessed with a directory structure, and returns JSON.
+		
+What endpoints implement actions that are idempotent? nullipotent?
+	Idempotency and nullipotency have less to do with the specific HTTP methods. GET, 
+		PUT and DELETE are idempotent, while GET is nullipotent. Looking at the Monopoly
+		db, both players and player/{id} implement GET, making both have nullipotent
+		implementation. player/{id} also has implementation for PUT and DELETE, which are
+		both idempotent methods.
+		
+What evidence, if any, do you see of the commonly-cited impedance mismatch problem in 
+object-relational information systems?
+	A lot of the impedance mismatching comes how data is accessed and stored. I see
+		that in the Java code, everything is manipulated in classes and then accessors
+		are used to populate SQL statements.
+		
+Would the web service built in the lab be susceptible to SQL-injection attacks?
+	Yes. Specifically looking at the getPlayer method. A user could easily add a true
+		statement onto the end of the ID to return all players. A bit pointless because
+		they could do that anyway, but a vulnerability none the less.
