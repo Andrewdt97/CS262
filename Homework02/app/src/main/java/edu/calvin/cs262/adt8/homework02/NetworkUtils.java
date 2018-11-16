@@ -1,8 +1,5 @@
 package edu.calvin.cs262.adt8.homework02;
 
-import android.net.Uri;
-import android.util.Log;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -10,7 +7,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class NetworkUtils {
+class NetworkUtils {
 
     private static final String LOG_TAG = NetworkUtils.class.getSimpleName();
     private static final String BASE_URL = "https://calvincs262-monopoly.appspot.com/monopoly/v1/";
@@ -22,7 +19,7 @@ public class NetworkUtils {
 
         try {
 
-            URL requestURL = new URL( BASE_URL + queryString );
+            URL requestURL = new URL(BASE_URL + queryString);
             urlConnection = (HttpURLConnection) requestURL.openConnection();
             urlConnection.setRequestMethod("GET");
             urlConnection.connect();

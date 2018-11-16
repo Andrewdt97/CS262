@@ -13,17 +13,20 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <EditText
             android:id="@+id/idEt"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:inputType="numberSigned"/>
+            android:inputType="numberSigned" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fetch"
             android:layout_marginRight="5dp"
-            android:onClick="onFetchBtnPressed"/>
+            android:onClick="onFetchBtnPressed"
+            android:text="@string/fetch"
+            android:layout_marginEnd="5dp" />
     </LinearLayout>
 
     <ListView

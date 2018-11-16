@@ -1,6 +1,6 @@
 package edu.calvin.cs262.adt8.homework02;
 
-public class Player {
+class Player {
     public int id;
     public String email;
     public String name;

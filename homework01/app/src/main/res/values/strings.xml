@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Homework01</string>
+    <string name="value1">Value1</string>
+    <string name="value2">Value2</string>
+    <string name="operator">Operator</string>
+    <string name="calculate">Calculate</string>
+
+    <string-array name="operators">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+        <item>/</item>
+    </string-array>
+</resources>

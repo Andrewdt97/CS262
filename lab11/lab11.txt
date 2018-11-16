@@ -1,0 +1,46 @@
+Andrew Thomas
+CS 262 Lab 11
+
+Homework 1:
+Lint:
+ + Accessability:
+ 	- Recommendation: Add hints to edit texts
+ 	- Response: We have text lables, so in this case I don't think an update is neccesary.
+ + Security:
+ 	- Reccomendation: Something about an attribute to save data between instances
+ 	- Response: Sounded logical so I went with the autmatic fix.
++ Usability:
+	- Reccomendation: Add autoFill hint to editTexts
+	- Response: We aren't using hints so not going to be helpful.
+
+Java:
++ Declaration can be weaker
+	- Response: A few variables can be private so I will make them such
++ Unused imports
+	- Response: Axe them, violently.
++ "Redundant" casting
+	- Response: findViewById can be sketchy some times, so I want to keep the cast.
+
+Besides the reccomended fixes, I added doc strings to all public methods.
+
+Homework 2:
+This had a lot more suggestions, so I will just give a brief overview.
+
+Lint:
+	+ Correctness:
+		- Reccomendation: Remove an attribute not supported in the minSDK
+		- Response: It is needed for the functionality, so I would updated the min SDK.
+
+		- Reccomendation: Invalid vector paths
+		- Response: Add leading 0s to decimal numbers
+Java:
+	+ Error handling:
+		- Reccomendation: Take return out of finally block
+		- Response: Thinks it will mask exception which is not true.
+
+Spelling:
+	+ Typo:
+		- Reccomendation: Typo'd the word "grade"
+		- Response: Fix it
+		
+Doc strings also added.
