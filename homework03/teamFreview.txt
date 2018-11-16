@@ -1,0 +1,27 @@
+Andrew Thomas
+Review of Team F for homework03
+
+Do their project management materials show the appropriate amount of activity?
+	Yes, Trello looks solid and so does github commit history.
+	
+Write a one-to-two-paragraph review of their models. Is their database schema
+well-formulated?
+	Their data model is quite simple, but I don't think it needs to be for their
+		needs. All the basic bases are covered, but if time allows I can think
+		of the following cool additions. I would love to see a category item
+		and you can choose to play based on categories. Maybe also have another
+		table for question translations so the game can be played in multiple
+		languages.
+	
+Has there been an appropriate amount of code pushed into their client and server repos? Can you run the prototype and/or the database?
+	It looked like they had a good number of commits, but I could not find a lot of
+		progress on my musings. I didn't have a chance to see their presentation,
+		so I may have missed something.
+
+Was their design presentation effective? What worked? What didn’t work? How would you rate their presentation relative to the others?
+	Team A's presentation was not bad by any means. It was very helpful and
+		informative, but it was very boring. Their app idea is not particularly
+		inspiring and they did not try and offset that at all. Even just some
+		more tonal variation could have helped.
+	Their demo was particularly good though and I loved how they used the presentation
+		pieces as their different projects.
